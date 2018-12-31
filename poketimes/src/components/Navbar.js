@@ -4,9 +4,10 @@ import { Link, NavLink, withRouter } from 'react-router-dom';
 // if we want to have access to props outside Route
 
 const Navbar = (props) => {
-    setTimeout(() => {
-        props.history.push('/about')
-    }, 3000);
+    // setTimeout(() => {
+    //     props.history.push('/about')
+    // }, 3000);
+    // I had to comment the above code to do another task
     return (
         <nav className="nav-wrapper red darken-3">
             <div className="container">
